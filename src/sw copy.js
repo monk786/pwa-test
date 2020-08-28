@@ -1,6 +1,3 @@
-if('worker' in self){
-    workbox.precaching.prechacheAndRoute( self.__precacheManifest || []);
-}
 const cacheName = 'pwa-conf-v1';
 const staticAssets = [
     './',

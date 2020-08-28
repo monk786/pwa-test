@@ -1,3 +1,3 @@
-if('worker' in self){
-    workbox.precaching.prechacheAndRoute( self.__precacheManifest || []);
-}
+if ('workbox' in self) {
+    workbox.precaching.precacheAndRoute(self.__WB_MANIFEST || []);
+  }
