@@ -25,7 +25,7 @@
     "webpack-dev-server": "webpack-dev-server",
     "prod": "npm run webpack -- --env.mode production --env.presets serviceworker",
     "dev": "npm run webpack-dev-server -- --env.mode development --hot",
-    "dev.sw": "npm run webpack -- --env.mode development --env.presets serviceworker"
+    "dev:sw": "npm run webpack-dev-server -- --env.mode development --env.presets serviceworker"
   },
   "keywords": [],
   "author": "",
