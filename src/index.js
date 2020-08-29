@@ -24,7 +24,7 @@ class PWAConfApp {
   async loadSchedule() {
     // const rawSchedule = await this.fetchJSON('./schedule.json');
     const rawSchedule = ( await import('./schedule.json')).default;
-
+    console.log('rawSchedule',rawSchedule);
     // Add speaker details to array
     this.schedule = rawSchedule.map(this.addSpeakerDetails, this);
     this.scheduleDiv.innerHTML = this.schedule
